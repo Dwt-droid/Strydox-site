@@ -24,6 +24,14 @@
     </head>
 
     <body>
+        <div id="preloader">
+    <div class="preloader-logo-wrap">
+        <div class="preloader-ring"></div>
+        <div class="preloader-ring ring-2"></div>
+        <div class="preloader-logo-text">STRYDOX</div>
+    </div>
+    <div class="preloader-tagline">TECHNICAL CONSULTANCY</div>
+</div>
         
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -507,5 +515,12 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script>
+    window.addEventListener('load', function () {
+        setTimeout(function () {
+            document.getElementById('preloader').classList.add('fade-out');
+        }, 3500);
+    });
+</script>
     </body>
 </html>
