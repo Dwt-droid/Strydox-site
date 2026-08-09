@@ -1082,6 +1082,15 @@ a:focus {
     letter-spacing: 1px;
 }
 
+.blog .carousel-btn .btn-play {
+    color: #092a49;
+    border-color: #092a49;
+}
+
+.blog .carousel-btn .btn-play:hover {
+    color: #ffffff;
+    background: #092a49;
+}
 .blog .blog-meta {
     position: relative;
     margin-bottom: 15px;
