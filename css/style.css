@@ -310,6 +310,7 @@ a:focus {
     height: auto;
     max-height: 500px; /* Adjust as needed */
     object-fit: contain; /* Ensures the entire image is visible */
+    object-fit: cover;
 }
 
 .carousel .carousel-text {
