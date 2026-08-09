@@ -306,7 +306,7 @@ a:focus {
 }
 
 .carousel .carousel-img img {
-    width: 100%;
+    width: auto;
     height: auto;
     max-height: 500px; /* Adjust as needed */
     object-fit: contain; /* Ensures the entire image is visible */
