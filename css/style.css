@@ -274,6 +274,7 @@ a:focus {
 
 .carousel .container-fluid {
     padding: 0;
+    height: 100%; /* FIX: pass the carousel's full height down to carousel-img/img so cover + object-position work correctly */
 }
 
 .carousel .carousel-item {
@@ -306,10 +307,10 @@ a:focus {
 }
 
 .carousel .carousel-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: right center; /* shifts the visible part of the image to the right */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right center; /* shifts the visible part of the image to the right */
 }
 
 .carousel .carousel-text {
