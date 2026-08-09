@@ -290,11 +290,11 @@ a:focus {
 .carousel .carousel-img {
     position: relative;
     width: 100%;
-    height: calc(70% + 0px);
-    margin-bottom: -0px;
+    height: 100%;
     text-align: right;
     overflow: hidden;
 }
+
 
 .carousel .carousel-img::after {
     position: absolute;
