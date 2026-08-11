@@ -176,9 +176,27 @@ Changelogs, an extremely important process, is a running record of updates, bug 
                         </ul> 
                     </div>
                 </div>
+                <div class="carousel-btn" style="text-align: center; margin-top: 30px;">
+                    <a class="btn btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i class="fa fa-play"></i>Watch Video</a>
+                </div>
             </div>
         </div>
         <!-- Blog End -->
+
+<!-- Video Modal Start -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="videoIframe" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Video Modal End -->
 
 <!-- Footer Start -->
         <div class="footer">
@@ -201,7 +219,7 @@ Changelogs, an extremely important process, is a running record of updates, bug 
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="#">STRYDOX</a>, All Right Reserved.</p>
+                        <p>&copy; <a href="#">STRYDOX</a>. All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
                         <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
@@ -235,6 +253,16 @@ Changelogs, an extremely important process, is a running record of updates, bug 
                     document.getElementById('preloader').classList.add('fade-out');
                 }, 1700);
             });
+        </script>
+
+        <script>
+        $('#videoModal').on('show.bs.modal', function (e) {
+            var link = $(e.relatedTarget).data('src');
+            $(this).find('#videoIframe').attr('src', link);
+        });
+        $('#videoModal').on('hide.bs.modal', function (e) {
+            $(this).find('#videoIframe').attr('src', '');
+        });
         </script>
     </body>
 </html>
