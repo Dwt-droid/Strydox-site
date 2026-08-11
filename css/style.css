@@ -265,7 +265,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    height: calc(100vh - 900px);
+    height: calc(100vh - 700px);
     min-height: 400px;
     background: #092a49;
     margin-bottom: 0px;
