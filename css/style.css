@@ -756,6 +756,49 @@ a:focus {
 
 
 /*******************************/
+/****** Service Accordion ******/
+/*******************************/
+.service-acc-item {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.service-acc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.service-acc-header:hover {
+    color: #0796fe;
+}
+
+.service-acc-header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.service-acc-header i {
+    color: #0796fe;
+    transition: transform .3s;
+}
+
+.service-acc-header:not(.collapsed) i {
+    transform: rotate(180deg);
+}
+
+.service-acc-item .collapse p,
+.service-acc-item .collapsing p {
+    padding: 0 5px 20px 5px;
+    margin: 0;
+    font-size: 16px;
+}
+
+/*******************************/
 /********* Feature CSS *********/
 /*******************************/
 .feature {
