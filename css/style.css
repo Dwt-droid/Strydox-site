@@ -744,6 +744,7 @@ a:focus {
     background: #1d2434;
     border-color: #1d2434;
 }
+
 /*******************************/
 /****** Service Accordion ******/
 /*******************************/
@@ -757,39 +758,24 @@ a:focus {
     padding: 20px 25px;
     cursor: pointer;
     transition: .3s;
-    background: #ffffff;
-    color: #092a49;
-    border: 2px solid #092a49;
+    background: #092a49;
+    color: #ffffff;
     margin-bottom: 2px;
 }
 .service-acc-header:hover {
     background: #0796fe;
-    border-color: #0796fe;
-    color: #ffffff;
-}
-.service-acc-header:not(.collapsed) {
-    background: #092a49;
-    border-color: #092a49;
     color: #ffffff;
 }
 .service-acc-header h3 {
     margin: 0;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 1px;
-    color: #092a49;
-}
-.service-acc-header:hover h3,
-.service-acc-header:not(.collapsed) h3 {
     color: #ffffff;
 }
 .service-acc-header i {
-    color: #092a49;
-    transition: transform .3s;
-}
-.service-acc-header:hover i,
-.service-acc-header:not(.collapsed) i {
     color: #ffffff;
+    transition: transform .3s;
 }
 .service-acc-header:not(.collapsed) i {
     transform: rotate(180deg);
