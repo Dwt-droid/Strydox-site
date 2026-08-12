@@ -689,7 +689,6 @@ a:focus {
     }
 }
 
-
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
@@ -698,7 +697,6 @@ a:focus {
     width: 100%;
     padding: 45px 0 15px 0;
 }
-
 .service .service-item {
     position: relative;
     width: 100%;
@@ -708,36 +706,30 @@ a:focus {
     border: 1px solid rgba(0, 0, 0, .1);
     transition: .3s;
 }
-
 .service .service-item:hover {
     border-color: transparent;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
-
 .service .service-item img {
     max-height: 50px;
     margin-bottom: 20px;
 }
-
 .service .service-item h3 {
     margin-bottom: 10px;
     font-size: 22px;
     font-weight: 300;
     letter-spacing: 1px;
 }
-
 .service .service-item p {
     margin-bottom: 10px;
     font-size: 16px;
 }
-
 .service .service-item a {
     position: relative;
     font-size: 16px;
     color: #0796fe;
     transition: .3s;
 }
-
 .service .service-item a::after {
     content: "";
     position: absolute;
@@ -747,21 +739,17 @@ a:focus {
     left: 10%;
     background: #0796fe;
 }
-
 .service .service-item:hover a.btn {
     color: #092a49;
     background: #1d2434;
     border-color: #1d2434;
 }
-
-
 /*******************************/
 /****** Service Accordion ******/
 /*******************************/
 .service-acc-item {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
-
 .service-acc-header {
     display: flex;
     align-items: center;
@@ -769,33 +757,41 @@ a:focus {
     padding: 20px 25px;
     cursor: pointer;
     transition: .3s;
-    background: #092a49;
-    color: #ffffff;
+    background: #f8f9fa;
+    color: #092a49;
+    border: 1px solid rgba(0,0,0,.1);
     margin-bottom: 2px;
 }
-
 .service-acc-header:hover {
     background: #0796fe;
     color: #ffffff;
 }
-
+.service-acc-header:not(.collapsed) {
+    background: #092a49;
+    color: #ffffff;
+}
 .service-acc-header h3 {
     margin: 0;
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 1px;
+    color: #092a49;
+}
+.service-acc-header:hover h3,
+.service-acc-header:not(.collapsed) h3 {
     color: #ffffff;
 }
-
 .service-acc-header i {
-    color: #ffffff;
+    color: #092a49;
     transition: transform .3s;
 }
-
+.service-acc-header:hover i,
+.service-acc-header:not(.collapsed) i {
+    color: #ffffff;
+}
 .service-acc-header:not(.collapsed) i {
     transform: rotate(180deg);
 }
-
 .service-acc-item .collapse p,
 .service-acc-item .collapsing p {
     padding: 20px 25px;
