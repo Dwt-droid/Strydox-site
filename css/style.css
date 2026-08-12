@@ -259,6 +259,30 @@ a:focus {
     }
 }
 
+
+/*******************************/
+/******** Breadcrumb CSS *******/    ← ADD YOUR NEW CODE HERE
+/*******************************/
+.breadcrumb-wrapper {
+    padding: 15px 0;
+    font-size: 14px;
+    background: #f8f9fa;
+}
+
+.breadcrumb-wrapper a {
+    color: #0796fe;
+    text-decoration: none;
+}
+
+.breadcrumb-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-wrapper span {
+    margin: 0 8px;
+    color: #797979;
+}
+
 /*******************************/
 /********** Hero CSS ***********/
 /*******************************/
