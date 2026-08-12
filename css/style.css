@@ -757,23 +757,25 @@ a:focus {
     padding: 20px 25px;
     cursor: pointer;
     transition: .3s;
-    background: #f8f9fa;
+    background: #ffffff;
     color: #092a49;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 2px solid #092a49;
     margin-bottom: 2px;
 }
 .service-acc-header:hover {
     background: #0796fe;
+    border-color: #0796fe;
     color: #ffffff;
 }
 .service-acc-header:not(.collapsed) {
     background: #092a49;
+    border-color: #092a49;
     color: #ffffff;
 }
 .service-acc-header h3 {
     margin: 0;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 1px;
     color: #092a49;
 }
