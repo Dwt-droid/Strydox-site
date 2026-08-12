@@ -766,13 +766,17 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 5px;
+    padding: 20px 25px;
     cursor: pointer;
     transition: .3s;
+    background: #092a49;
+    color: #ffffff;
+    margin-bottom: 2px;
 }
 
 .service-acc-header:hover {
-    color: #0796fe;
+    background: #0796fe;
+    color: #ffffff;
 }
 
 .service-acc-header h3 {
@@ -780,10 +784,11 @@ a:focus {
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 1px;
+    color: #ffffff;
 }
 
 .service-acc-header i {
-    color: #0796fe;
+    color: #ffffff;
     transition: transform .3s;
 }
 
@@ -793,9 +798,10 @@ a:focus {
 
 .service-acc-item .collapse p,
 .service-acc-item .collapsing p {
-    padding: 0 5px 20px 5px;
+    padding: 20px 25px;
     margin: 0;
     font-size: 16px;
+    background: #f8f9fa;
 }
 
 /*******************************/
