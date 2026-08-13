@@ -1293,7 +1293,6 @@ a:focus {
     width: 100%;
     padding: 45px 0 15px 0;
 }
-
 .contact .contact-info {
     position: relative;
     display: flex;
@@ -1302,12 +1301,10 @@ a:focus {
     margin-bottom: 30px;
     transition: .3s;
 }
-
 .contact .contact-info:hover {
     border-color: transparent;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
-
 .contact .contact-icon {
     position: relative;
     width: 50px;
@@ -1317,31 +1314,26 @@ a:focus {
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, .1);
 }
-
 .contact .contact-icon i {
     font-size: 18px;
     color: #0796fe;
 }
-
 .contact .contact-text {
     position: relative;
     display: flex;
     flex-direction: column;
     padding-left: 15px;
 }
-
 .contact .contact-text h3 {
     font-size: 16px;
     font-weight: 400;
     color: #092a49;
     letter-spacing: 1px;
 }
-
 .contact .contact-text p {
     margin: 0;
     font-size: 16px;
 }
-
 .contact .contact-form {
     position: relative;
     padding: 30px;
@@ -1349,44 +1341,43 @@ a:focus {
     margin-bottom: 30px;
     transition: .3s;
 }
-
 .contact .contact-form:hover {
     border-color: transparent;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
-
 .contact .contact-form input {
     padding: 15px;
     background: none;
     border-radius: 0;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 2px solid #092a49;
 }
-
 .contact .contact-form textarea {
     height: 100px;
     padding: 8px 15px;
     background: none;
     border-radius: 0;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 2px solid #092a49;
 }
-
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+    border-color: #0796fe;
+    outline: none;
+}
 .contact .contact-form .btn {
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #092a49;
-    background: none;
+    color: #ffffff;
+    background: #092a49;
     border: 2px solid #092a49;
     border-radius: 0;
     transition: .3s;
 }
-
 .contact .contact-form .btn:hover {
-    color: #0796fe;
-    background: #092a49;
+    color: #092a49;
+    background: #ffffff;
 }
-
 .contact .help-block ul {
     margin: 0;
     padding: 0;
