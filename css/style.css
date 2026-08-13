@@ -1297,12 +1297,12 @@ a:focus {
     position: relative;
     display: flex;
     padding: 30px;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 2px solid #092a49;
     margin-bottom: 30px;
     transition: .3s;
 }
 .contact .contact-info:hover {
-    border-color: transparent;
+    border-color:  #0796fe;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 .contact .contact-icon {
