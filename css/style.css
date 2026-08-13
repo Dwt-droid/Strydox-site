@@ -1372,6 +1372,7 @@ a:focus {
     background: #092a49;
     border: 2px solid #092a49;
     border-radius: 0;
+    margin-top: 15px;
     transition: .3s;
 }
 .contact .contact-form .btn:hover {
