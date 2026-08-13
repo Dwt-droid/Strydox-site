@@ -1358,6 +1358,10 @@ a:focus {
     border-radius: 0;
     border: 2px solid #092a49;
 }
+.contact .contact-form input,
+.contact .contact-form textarea {
+    margin-bottom: 15px;
+}
 .contact .contact-form input:focus,
 .contact .contact-form textarea:focus {
     border-color: #0796fe;
